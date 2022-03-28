@@ -22,7 +22,7 @@ formato `.csv` y también los logs del script.
 ### Pre-requisitos
 Para descargar este script e instalar todo lo necesario para ejecutarlo:
 ```
-https://github.com/akalautaro/web-scraping.git
+https://github.com/akalautaro/scraping-cadenas.git
 
 pip install -r requirements.txt
 ```
