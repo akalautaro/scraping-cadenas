@@ -1,0 +1,550 @@
+09:59:58 AM: INFO [main.py:153] Comienza ejecución de los spiders
+09:59:58 AM: INFO [main.py:154] Importando configuraciones
+09:59:58 AM: INFO [main.py:156] RUNNING SPIDERS
+09:59:58 AM: INFO [main.py:158] Process started
+09:59:58 AM: INFO [crawler.py:60] Overridden settings:
+{'BOT_NAME': 'cadena_electrodomesticos',
+ 'CONCURRENT_REQUESTS': 32,
+ 'FEED_EXPORT_ENCODING': 'UTF-8',
+ 'LOG_FILE': 'D:\\\\Lautaro\\\\Python\\\\web-scraping\\\\cadena_electrodomesticos\\\\data\\\\Spider-logs.log',
+ 'LOG_LEVEL': 'INFO',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_NOTIFY_MAIL': ['cosmelautarito@gmail.com'],
+ 'NEWSPIDER_MODULE': 'cadena_electrodomesticos.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['cadena_electrodomesticos.spiders']}
+09:59:58 AM: INFO [telnet.py:55] Telnet Password: f2eb4c33722ef993
+09:59:58 AM: INFO [middleware.py:51] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+09:59:59 AM: INFO [middleware.py:51] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+09:59:59 AM: INFO [middleware.py:51] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+09:59:59 AM: INFO [middleware.py:51] Enabled item pipelines:
+[]
+09:59:59 AM: INFO [engine.py:313] Spider opened
+09:59:59 AM: INFO [logstats.py:48] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+09:59:59 AM: INFO [telnet.py:67] Telnet console listening on 127.0.0.1:6023
+09:59:59 AM: INFO [crawler.py:60] Overridden settings:
+{'BOT_NAME': 'cadena_electrodomesticos',
+ 'CONCURRENT_REQUESTS': 32,
+ 'FEED_EXPORT_ENCODING': 'UTF-8',
+ 'LOG_FILE': 'D:\\\\Lautaro\\\\Python\\\\web-scraping\\\\cadena_electrodomesticos\\\\data\\\\Spider-logs.log',
+ 'LOG_LEVEL': 'INFO',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_NOTIFY_MAIL': ['cosmelautarito@gmail.com'],
+ 'NEWSPIDER_MODULE': 'cadena_electrodomesticos.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['cadena_electrodomesticos.spiders']}
+09:59:59 AM: INFO [telnet.py:55] Telnet Password: 1c18adee1b3f5bb3
+09:59:59 AM: INFO [middleware.py:51] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+09:59:59 AM: INFO [middleware.py:51] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+09:59:59 AM: INFO [middleware.py:51] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+09:59:59 AM: INFO [middleware.py:51] Enabled item pipelines:
+[]
+09:59:59 AM: INFO [engine.py:313] Spider opened
+09:59:59 AM: INFO [logstats.py:48] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+09:59:59 AM: INFO [telnet.py:67] Telnet console listening on 127.0.0.1:6024
+10:00:00 AM: WARNING [http11.py:585] Got data loss in https://www.fravega.com/l/informatica/notebooks/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+10:00:00 AM: INFO [main.py:164] Process finished
+10:02:47 AM: INFO [main.py:153] Comienza ejecución de los spiders
+10:02:47 AM: INFO [main.py:154] Importando configuraciones
+10:02:47 AM: INFO [main.py:156] RUNNING SPIDERS
+10:02:47 AM: INFO [main.py:158] Process started
+10:02:47 AM: INFO [crawler.py:60] Overridden settings:
+{'BOT_NAME': 'cadena_electrodomesticos',
+ 'CONCURRENT_REQUESTS': 32,
+ 'FEED_EXPORT_ENCODING': 'UTF-8',
+ 'LOG_FILE': 'D:\\\\Lautaro\\\\Python\\\\web-scraping\\\\cadena_electrodomesticos\\\\data\\\\Spider-logs.log',
+ 'LOG_LEVEL': 'INFO',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_NOTIFY_MAIL': ['cosmelautarito@gmail.com'],
+ 'NEWSPIDER_MODULE': 'cadena_electrodomesticos.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['cadena_electrodomesticos.spiders']}
+10:02:47 AM: INFO [telnet.py:55] Telnet Password: 1aaebe80328568b5
+10:02:47 AM: INFO [middleware.py:51] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+10:02:47 AM: INFO [middleware.py:51] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+10:02:47 AM: INFO [middleware.py:51] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+10:02:47 AM: INFO [middleware.py:51] Enabled item pipelines:
+[]
+10:02:47 AM: INFO [engine.py:313] Spider opened
+10:02:47 AM: INFO [logstats.py:48] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+10:02:47 AM: INFO [telnet.py:67] Telnet console listening on 127.0.0.1:6023
+10:02:47 AM: INFO [crawler.py:60] Overridden settings:
+{'BOT_NAME': 'cadena_electrodomesticos',
+ 'CONCURRENT_REQUESTS': 32,
+ 'FEED_EXPORT_ENCODING': 'UTF-8',
+ 'LOG_FILE': 'D:\\\\Lautaro\\\\Python\\\\web-scraping\\\\cadena_electrodomesticos\\\\data\\\\Spider-logs.log',
+ 'LOG_LEVEL': 'INFO',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_NOTIFY_MAIL': ['cosmelautarito@gmail.com'],
+ 'NEWSPIDER_MODULE': 'cadena_electrodomesticos.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['cadena_electrodomesticos.spiders']}
+10:02:47 AM: INFO [telnet.py:55] Telnet Password: 0fcd1173f605eee2
+10:02:47 AM: INFO [middleware.py:51] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+10:02:47 AM: INFO [middleware.py:51] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+10:02:47 AM: INFO [middleware.py:51] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+10:02:47 AM: INFO [middleware.py:51] Enabled item pipelines:
+[]
+10:02:47 AM: INFO [engine.py:313] Spider opened
+10:02:47 AM: INFO [logstats.py:48] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+10:02:47 AM: INFO [telnet.py:67] Telnet console listening on 127.0.0.1:6024
+10:03:25 AM: INFO [engine.py:358] Closing spider (finished)
+10:03:25 AM: INFO [feedexport.py:377] Stored json feed (220 items) in: ../cadena_electrodomesticos/data/ProductosMusimundo.json
+10:03:25 AM: INFO [statscollectors.py:46] Dumping Scrapy stats:
+{'downloader/request_bytes': 132410,
+ 'downloader/request_count': 236,
+ 'downloader/request_method_count/GET': 236,
+ 'downloader/response_bytes': 8055971,
+ 'downloader/response_count': 236,
+ 'downloader/response_status_count/200': 233,
+ 'downloader/response_status_count/301': 3,
+ 'elapsed_time_seconds': 37.65703,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 25, 13, 3, 25, 546762),
+ 'httpcompression/response_bytes': 41077484,
+ 'httpcompression/response_count': 233,
+ 'item_scraped_count': 220,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 8,
+ 'response_received_count': 233,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 235,
+ 'scheduler/dequeued/memory': 235,
+ 'scheduler/enqueued': 235,
+ 'scheduler/enqueued/memory': 235,
+ 'start_time': datetime.datetime(2022, 3, 25, 13, 2, 47, 889732)}
+10:03:25 AM: INFO [engine.py:385] Spider closed (finished)
+10:03:47 AM: INFO [logstats.py:48] Crawled 309 pages (at 309 pages/min), scraped 287 items (at 287 items/min)
+10:03:53 AM: INFO [engine.py:358] Closing spider (finished)
+10:03:53 AM: INFO [feedexport.py:377] Stored json feed (293 items) in: ../cadena_electrodomesticos/data/ProductosFravega.json
+10:03:53 AM: INFO [statscollectors.py:46] Dumping Scrapy stats:
+{'downloader/request_bytes': 120927,
+ 'downloader/request_count': 315,
+ 'downloader/request_method_count/GET': 315,
+ 'downloader/response_bytes': 27536003,
+ 'downloader/response_count': 315,
+ 'downloader/response_status_count/200': 315,
+ 'elapsed_time_seconds': 65.794673,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 25, 13, 3, 53, 676406),
+ 'httpcompression/response_bytes': 163987619,
+ 'httpcompression/response_count': 315,
+ 'item_scraped_count': 293,
+ 'log_count/INFO': 25,
+ 'request_depth_max': 20,
+ 'response_received_count': 315,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 314,
+ 'scheduler/dequeued/memory': 314,
+ 'scheduler/enqueued': 314,
+ 'scheduler/enqueued/memory': 314,
+ 'start_time': datetime.datetime(2022, 3, 25, 13, 2, 47, 881733)}
+10:03:53 AM: INFO [engine.py:385] Spider closed (finished)
+10:03:53 AM: INFO [main.py:164] Process finished
+10:33:22 AM: INFO [main.py:153] Comienza ejecución de los spiders
+10:33:22 AM: INFO [main.py:154] Importando configuraciones
+10:33:22 AM: INFO [main.py:156] RUNNING SPIDERS
+10:33:22 AM: INFO [main.py:158] Process started
+10:33:22 AM: INFO [crawler.py:60] Overridden settings:
+{'BOT_NAME': 'cadena_electrodomesticos',
+ 'CONCURRENT_REQUESTS': 32,
+ 'FEED_EXPORT_ENCODING': 'UTF-8',
+ 'LOG_LEVEL': 'INFO',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_NOTIFY_MAIL': ['cosmelautarito@gmail.com'],
+ 'NEWSPIDER_MODULE': 'cadena_electrodomesticos.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['cadena_electrodomesticos.spiders']}
+10:33:22 AM: INFO [telnet.py:55] Telnet Password: 6c551c12573fa6cf
+10:33:22 AM: INFO [middleware.py:51] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+10:33:23 AM: INFO [middleware.py:51] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+10:33:23 AM: INFO [middleware.py:51] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+10:33:23 AM: INFO [middleware.py:51] Enabled item pipelines:
+[]
+10:33:23 AM: INFO [engine.py:313] Spider opened
+10:33:23 AM: INFO [logstats.py:48] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+10:33:23 AM: INFO [telnet.py:67] Telnet console listening on 127.0.0.1:6023
+10:33:23 AM: INFO [crawler.py:60] Overridden settings:
+{'BOT_NAME': 'cadena_electrodomesticos',
+ 'CONCURRENT_REQUESTS': 32,
+ 'FEED_EXPORT_ENCODING': 'UTF-8',
+ 'LOG_LEVEL': 'INFO',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_NOTIFY_MAIL': ['cosmelautarito@gmail.com'],
+ 'NEWSPIDER_MODULE': 'cadena_electrodomesticos.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['cadena_electrodomesticos.spiders']}
+10:33:23 AM: INFO [telnet.py:55] Telnet Password: f1ce4d16d3c2adf3
+10:33:23 AM: INFO [middleware.py:51] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+10:33:23 AM: INFO [middleware.py:51] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+10:33:23 AM: INFO [middleware.py:51] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+10:33:23 AM: INFO [middleware.py:51] Enabled item pipelines:
+[]
+10:33:23 AM: INFO [engine.py:313] Spider opened
+10:33:23 AM: INFO [logstats.py:48] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+10:33:23 AM: INFO [telnet.py:67] Telnet console listening on 127.0.0.1:6024
+10:33:31 AM: WARNING [http11.py:585] Got data loss in https://www.fravega.com/l/informatica/notebooks/?categorias=informatica%2Fnotebooks&page=2. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+10:33:36 AM: INFO [main.py:153] Comienza ejecución de los spiders
+10:33:36 AM: INFO [main.py:154] Importando configuraciones
+10:33:36 AM: INFO [main.py:156] RUNNING SPIDERS
+10:33:36 AM: INFO [main.py:158] Process started
+10:33:36 AM: INFO [crawler.py:60] Overridden settings:
+{'BOT_NAME': 'cadena_electrodomesticos',
+ 'CONCURRENT_REQUESTS': 32,
+ 'FEED_EXPORT_ENCODING': 'UTF-8',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_NOTIFY_MAIL': ['cosmelautarito@gmail.com'],
+ 'NEWSPIDER_MODULE': 'cadena_electrodomesticos.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['cadena_electrodomesticos.spiders']}
+10:33:36 AM: INFO [telnet.py:55] Telnet Password: faa65c5b3befd98c
+10:33:36 AM: INFO [middleware.py:51] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+10:33:36 AM: INFO [middleware.py:51] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+10:33:36 AM: INFO [middleware.py:51] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+10:33:36 AM: INFO [middleware.py:51] Enabled item pipelines:
+[]
+10:33:36 AM: INFO [engine.py:313] Spider opened
+10:33:36 AM: INFO [logstats.py:48] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+10:33:36 AM: INFO [telnet.py:67] Telnet console listening on 127.0.0.1:6023
+10:33:36 AM: INFO [crawler.py:60] Overridden settings:
+{'BOT_NAME': 'cadena_electrodomesticos',
+ 'CONCURRENT_REQUESTS': 32,
+ 'FEED_EXPORT_ENCODING': 'UTF-8',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_NOTIFY_MAIL': ['cosmelautarito@gmail.com'],
+ 'NEWSPIDER_MODULE': 'cadena_electrodomesticos.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['cadena_electrodomesticos.spiders']}
+10:33:36 AM: INFO [telnet.py:55] Telnet Password: 06ad75db37803fc0
+10:33:36 AM: INFO [middleware.py:51] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+10:33:36 AM: INFO [middleware.py:51] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+10:33:36 AM: INFO [middleware.py:51] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+10:33:36 AM: INFO [middleware.py:51] Enabled item pipelines:
+[]
+10:33:36 AM: INFO [engine.py:313] Spider opened
+10:33:36 AM: INFO [logstats.py:48] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+10:33:36 AM: INFO [telnet.py:67] Telnet console listening on 127.0.0.1:6024
+10:34:12 AM: INFO [engine.py:358] Closing spider (finished)
+10:34:12 AM: INFO [feedexport.py:377] Stored json feed (220 items) in: ../cadena_electrodomesticos/data/ProductosMusimundo.json
+10:34:12 AM: INFO [statscollectors.py:46] Dumping Scrapy stats:
+{'downloader/request_bytes': 131913,
+ 'downloader/request_count': 235,
+ 'downloader/request_method_count/GET': 235,
+ 'downloader/response_bytes': 8066285,
+ 'downloader/response_count': 235,
+ 'downloader/response_status_count/200': 233,
+ 'downloader/response_status_count/301': 2,
+ 'elapsed_time_seconds': 35.486114,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 25, 13, 34, 12, 447668),
+ 'httpcompression/response_bytes': 41129765,
+ 'httpcompression/response_count': 233,
+ 'item_scraped_count': 220,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 8,
+ 'response_received_count': 233,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 234,
+ 'scheduler/dequeued/memory': 234,
+ 'scheduler/enqueued': 234,
+ 'scheduler/enqueued/memory': 234,
+ 'start_time': datetime.datetime(2022, 3, 25, 13, 33, 36, 961554)}
+10:34:12 AM: INFO [engine.py:385] Spider closed (finished)
+10:34:36 AM: INFO [logstats.py:48] Crawled 304 pages (at 304 pages/min), scraped 283 items (at 283 items/min)
+10:34:48 AM: INFO [engine.py:358] Closing spider (finished)
+10:34:48 AM: INFO [feedexport.py:377] Stored json feed (287 items) in: ../cadena_electrodomesticos/data/ProductosFravega.json
+10:34:48 AM: INFO [statscollectors.py:46] Dumping Scrapy stats:
+{'downloader/request_bytes': 118611,
+ 'downloader/request_count': 309,
+ 'downloader/request_method_count/GET': 309,
+ 'downloader/response_bytes': 26965339,
+ 'downloader/response_count': 309,
+ 'downloader/response_status_count/200': 309,
+ 'elapsed_time_seconds': 71.541104,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 25, 13, 34, 48, 494659),
+ 'httpcompression/response_bytes': 160594603,
+ 'httpcompression/response_count': 309,
+ 'item_scraped_count': 287,
+ 'log_count/INFO': 25,
+ 'request_depth_max': 20,
+ 'response_received_count': 309,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 308,
+ 'scheduler/dequeued/memory': 308,
+ 'scheduler/enqueued': 308,
+ 'scheduler/enqueued/memory': 308,
+ 'start_time': datetime.datetime(2022, 3, 25, 13, 33, 36, 953555)}
+10:34:48 AM: INFO [engine.py:385] Spider closed (finished)
+10:34:48 AM: INFO [main.py:164] Process finished
+10:43:19 AM: INFO [main.py:153] Comienza ejecución de los spiders
+10:43:19 AM: INFO [main.py:154] Importando configuraciones
+10:43:19 AM: INFO [main.py:156] RUNNING SPIDERS
+10:43:19 AM: INFO [main.py:158] Process started
+10:43:19 AM: INFO [crawler.py:60] Overridden settings:
+{'BOT_NAME': 'cadena_electrodomesticos',
+ 'CONCURRENT_REQUESTS': 32,
+ 'FEED_EXPORT_ENCODING': 'UTF-8',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_NOTIFY_MAIL': ['cosmelautarito@gmail.com'],
+ 'NEWSPIDER_MODULE': 'cadena_electrodomesticos.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['cadena_electrodomesticos.spiders']}
+10:43:19 AM: INFO [telnet.py:55] Telnet Password: 5306438bc46eb368
+10:43:19 AM: INFO [middleware.py:51] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+10:43:19 AM: INFO [middleware.py:51] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+10:43:19 AM: INFO [middleware.py:51] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+10:43:19 AM: INFO [middleware.py:51] Enabled item pipelines:
+[]
+10:43:19 AM: INFO [engine.py:313] Spider opened
+10:43:19 AM: INFO [logstats.py:48] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+10:43:19 AM: INFO [telnet.py:67] Telnet console listening on 127.0.0.1:6023
+10:43:19 AM: INFO [crawler.py:60] Overridden settings:
+{'BOT_NAME': 'cadena_electrodomesticos',
+ 'CONCURRENT_REQUESTS': 32,
+ 'FEED_EXPORT_ENCODING': 'UTF-8',
+ 'MEMUSAGE_LIMIT_MB': 2048,
+ 'MEMUSAGE_NOTIFY_MAIL': ['cosmelautarito@gmail.com'],
+ 'NEWSPIDER_MODULE': 'cadena_electrodomesticos.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['cadena_electrodomesticos.spiders']}
+10:43:19 AM: INFO [telnet.py:55] Telnet Password: d4705e0edc438f5c
+10:43:19 AM: INFO [middleware.py:51] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+10:43:19 AM: INFO [middleware.py:51] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+10:43:19 AM: INFO [middleware.py:51] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+10:43:19 AM: INFO [middleware.py:51] Enabled item pipelines:
+[]
+10:43:19 AM: INFO [engine.py:313] Spider opened
+10:43:19 AM: INFO [logstats.py:48] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+10:43:19 AM: INFO [telnet.py:67] Telnet console listening on 127.0.0.1:6024
+10:43:24 AM: WARNING [http11.py:585] Got data loss in https://www.fravega.com/p/notebook-asus-15-6-core-i3-4gb-256gb-x515ea-br1324t-50040445/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+10:43:24 AM: WARNING [http11.py:585] Got data loss in https://www.fravega.com/p/notebook-dell-15-6-intel-core-i5-12gb-256gb-ssd-insp5502-f3ghw-b-364162/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+10:43:24 AM: WARNING [http11.py:585] Got data loss in https://www.fravega.com/p/notebook-lenovo-gamer-15-6-amd-ryzen-512gb-8gb-ipg3-82ey00pr-364090/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+10:43:24 AM: WARNING [http11.py:585] Got data loss in https://www.fravega.com/p/notebook-vaio-fe-15-intel-core-i7-10510u-windows-10-home-8-gb-1-tb-50033259/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+10:43:24 AM: WARNING [http11.py:585] Got data loss in https://www.fravega.com/p/notebook-bangho-15-6-intel-core-i5-8gb-480gb-ssd-max-l5-i5-office-365-windows-11-50033157/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+10:43:24 AM: WARNING [http11.py:585] Got data loss in https://www.fravega.com/p/notebook-lenovo-gamer-15-6-i5-8gb-128gb-ssd-1tb-hdd-legion-5-lgn-82au00b0ar-364056/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+10:43:24 AM: WARNING [http11.py:585] Got data loss in https://www.fravega.com/p/notebook-tablet-lenovo-ip-d330-celeron-n4020-4gb-64gb-win-10-20014843/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+10:43:24 AM: WARNING [http11.py:585] Got data loss in https://www.fravega.com/p/notebook-hp-14-intel-celeron-4gb-128gb-ssd-14-cf2531la-364095/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+10:43:24 AM: INFO [main.py:164] Process finished
